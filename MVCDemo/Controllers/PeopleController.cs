@@ -21,7 +21,8 @@ namespace MVCDemo.Controllers
                 people.Add(new PersonModel { FirstName = "Tim", LastName = "Corey", Age = 38 });
                 people.Add(new PersonModel { FirstName = "John", LastName = "Doe", Age = 55 });
                 people.Add(new PersonModel { FirstName = "Brittney", LastName = "Spears", Age = 46 });
-            
+                people.Add(new PersonModel { FirstName = "Elton", LastName = "John", Age = 46 });
+
             return View(people);
         }
     }
